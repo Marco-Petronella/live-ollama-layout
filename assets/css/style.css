@@ -7,10 +7,11 @@
 
 body {
     max-width: 512px;
-    margin: 1rem;
     padding: 1rem;
 }
-
+p {
+    margin: 1rem;
+}
 #jumbotron {
     margin: 6rem 0rem; 
     text-align: center;
@@ -28,6 +29,7 @@ body {
     color: white;
     border-radius: 2rem;
     display: inline-block;
+    text-decoration: none;
 }
 #lama-cooking {
     width: 200px;
@@ -38,6 +40,27 @@ body {
 }
 .section-title {
     text-align: center;
+    margin-bottom: 2rem;
+}
+#lists {
+    margin:1rem;
+}
+.list {
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+.list-element {
+    margin: 1rem auto;
+    border: 2px solid whitesmoke;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem ;
+    font-weight: bold;
+}
+.bi-claude {
+    background-color: orange
+}
+i {
+    margin: 0.5rem;
 }
 #menu-icon {
     position: absolute;
