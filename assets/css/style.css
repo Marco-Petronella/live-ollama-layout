@@ -21,7 +21,13 @@ p {
     top: 1rem;
     left: 1rem;
 }
-.link-button {
+#menu-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 50px;
+}
+.button {
     margin-top: 2rem;
     border: 1px solid;
     padding: 1rem 2rem;
@@ -62,9 +68,31 @@ p {
 i {
     margin: 0.5rem;
 }
-#menu-icon {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 50px;
+#view-more {
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 50%;
+    translate: -50% 0;
+}
+#cta {
+    border: 2px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+}
+#cta-title {
+    padding-bottom: 1rem;
+}
+.cta-list {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+.cta-list-element {
+    margin-bottom:1rem ;
+}
+#create-button {
+    display: block;
+    margin:2rem auto;
+    text-align: center;
 }
